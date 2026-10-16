@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="es"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20261015-04-7abc9b0","C":{"Abril Fatface":"YACgEZbkUVE,0","Albert Sans":"YAHO2HRfeh4,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo Black":"YACgEZulLoA,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Baloo 2":"YAHO2IcQUcM,0","Barlow Condensed":"YAFdJljEuFc,0","Barlow":"YAFdJsyuOPM,1","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Cairo":"YAFdtXpDzlQ,0","Canva Sans":"YAFdJjTk5UU,1","Caveat":"YALBs2ploWQ,0","Cinzel":"YACgEeV8bIQ,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Figtree":"YAHO2b-mV7A,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAFdJpU7Kkk,0","Fredoka":"YACgEZml080,0","Georgia":"YAGzXkO0pEM,0","Hanken Grotesk":"YAHO2VB9G0I,0","Helvetica":"YAFcf7zkXN0,0","IBM Plex Mono":"YAFdJkmvhGI,0","IBM Plex Sans":"YAFdJgT0SHI,0","Impact":"YAFcfnjI7Vk,0","Instrument Sans":"YAHO2bKyaSQ,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Italiana":"YAHO2Toik_w,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Karla":"YAHO2V2NSXM,0","Lato":"YAFdJuFCnaw,0","Libre Baskerville":"YACgEUFdPdA,0","Libre Caslon Display":"YAHO2XhLmt0,0","Lobster":"YAD8SnSjSFI,0","Lora":"YACgEXvxf8Q,0","Manrope":"YAHO2b2feC4,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YAFdtQi73Xs,0","Noto Sans JP":"YAFdJiHXlcI,0","Noto Sans KR":"YAGsojZj-RQ,0","Nunito Sans":"YAFdtQJYB9w,1","Nunito":"YAFdJoNRMmU,1","Oleo Script":"YACgEQQ14jI,0","Open Sans":"YAFdJt8dAY0,1","Oswald":"YACgEQY10lw,0","Outfit":"YAHO2nVlg14,0","Pacifico":"YADLjORQ1u4,0","Playfair Display":"YAFdJhem5V8,1","Plus Jakarta Sans":"YAHO2gdhi18,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Public Sans":"YAFdJj8NdaU,1","Quicksand":"YAFdJpYtCxE,1","Raleway":"YAFdJhmxbVQ,1","Roboto Slab":"YAFdJswIKAg,0","Rockwell":"YAFcfyVZnN0,0","Rye":"YACgEdQP21k,0","STIX Two Text":"YAHO2joycuk,0","Sarabun":"YAFdJssSnME,0","Schibsted Grotesk":"YAHO2sWydRk,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Space Grotesk":"YAHO2sjPCSM,0","Space Mono":"YADW1-vpsoc,0","Spectral":"YAHO2rVUHIM,0","Times New Roman":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","Ubuntu":"YACgERDU--Q,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0"}}');</script><script src="/_sdk/05db820ba1544614.telemetry_sdk.js" integrity="sha512-a7JzkQDDcioSXpM61nxTfeRW7PcxWQy5+BrhyeTFmQFsXJ+Gncm0y50u7fTA7qOPegFnRgqCfa0mGUOK1yjDWQ=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rueda de bicicleta y trigonometría</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Fraunces:wght@600;700&amp;display=swap" rel="stylesheet">
+  <style>
+    :root{--ink:#183040;--muted:#506473;--line:#dce7e8;--a:#176aa5;--b:#b44d18;--paper:#f3f7f5}
+    *{box-sizing:border-box}body{font-family:"DM Sans",sans-serif;color:var(--ink);margin:0}
+    .app-shell{width:100%;min-height:100%;padding:clamp(16px,3vw,38px)}
+    .app-inner{max-width:1500px;margin:auto}.headline{font-family:Fraunces,serif;line-height:1.13}
+    .card{background:#fff;border:1px solid var(--line);border-radius:20px;box-shadow:0 8px 26px #163b3910;padding:clamp(18px,2vw,27px)}
+    .eyebrow{font-size:12px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:#347467}
+    .field{display:grid;grid-template-columns:minmax(0,1fr) 105px;gap:12px;align-items:center;margin:9px 0 18px}
+    input[type=range]{width:100%;accent-color:var(--a);height:28px;cursor:pointer}
+    input[type=text],select{width:100%;padding:11px;border:1px solid #b9cbcd;border-radius:10px;background:#fff;color:var(--ink)}
+    .btn{padding:10px 14px;border-radius:10px;border:1px solid #bdd1d2;background:#fff;color:var(--ink);font-weight:700;min-height:44px;transition:transform .15s,background .15s;cursor:pointer}
+    .btn:hover{background:#eaf3f3;transform:translateY(-1px)}.btn.primary{background:#176aa5;border-color:#176aa5;color:white}.btn.primary:hover{background:#10557f}
+    :focus-visible{outline:3px solid #df851e!important;outline-offset:2px}
+    .diagram{width:100%;height:auto;display:block;background:#f8fbfa;border:1px solid #e4eded;border-radius:14px;touch-action:none}.diagram.drag-ready{cursor:grab}.diagram.dragging{cursor:grabbing}.valve-hit{cursor:grab;transition:r .15s}.valve-hit:hover,.diagram.dragging .valve-hit{filter:drop-shadow(0 0 5px #df851e)}
+    .numbers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+    .metric{background:#f4f8f8;border:1px solid #e3ecec;border-radius:12px;padding:11px}
+    .metric small{display:block;color:var(--muted);font-size:12px;margin-bottom:4px}.metric strong{font-size:16px;overflow-wrap:anywhere}
+    .answer{background:#eaf4fa;border-left:4px solid var(--a);padding:14px;border-radius:10px}
+    .question{border-top:1px solid var(--line);padding:13px 0}.question p{margin:9px 0 0;color:var(--muted)}
+    svg text{font:12px "DM Sans",sans-serif;fill:#284554}svg .small{font-size:10px}
+    .warn{background:#fff2e9;border:1px solid #e4a074;color:#78370f;border-radius:12px;padding:13px;margin-top:14px}
+    @media(max-width:1050px){.main-grid{grid-template-columns:1fr!important}}
+    @media(max-width:560px){.field{grid-template-columns:minmax(0,1fr) 88px}.numbers{grid-template-columns:1fr}.app-shell{padding:12px}}
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="/_sdk/570d53629f0b998d.data_sdk.js" type="text/javascript" integrity="sha512-JEN39+V+Nvv9ZZOVS8vNk1iA9ErZJHTdgOw9KzPuMiK7m0I+KPEr/wmTnCFIQVsDjCZgJWfGnFi1IQh2Io2qyA=="></script>
+  <script src="/_sdk/0d3107a88dd31248.editing_sdk.js" type="text/javascript" integrity="sha512-YxJYPIC1TZ/l8asjpXojbfYA1LiLTr3Fh6BPE6fDLKLWTkDIhVGqsl6xMTuKf5GPOv3sZeQW9jrwgZcsiAARIQ=="></script>
+  <script src="/_sdk/f195026a424c1f85.resizing_sdk.js" type="text/javascript" integrity="sha512-8On4Z+AXh1abEzZJ9Dbn9wOvFg+k1LsAaAzKGQ7LlfgXajZ9xEmZaZ1QVzv0AWhCZtCsEpWSOG9DgLri06TS7A=="></script>
+ </head>
+ <body data-template-id="__page-root" style="background: rgb(243, 247, 245);">
+  <div class="app-shell">
+   <div class="app-inner">
+    <header class="mb-6">
+     <p data-template-id="header-kicker" class="canva-text eyebrow mb-2" style="color: rgb(52, 116, 103); font-weight: 700; font-style: normal; font-size: 16px;">LABORATORIO INTERACTIVO · TRIGONOMETRÍA</p>
+     <h1 data-template-id="page-title" class="canva-text headline font-bold" style="font-size: 32px; color: rgb(24, 48, 64); font-weight: 700; font-style: normal;">Una rueda, dos posibles respuestas</h1>
+     <p data-template-id="page-subtitle" class="canva-text mt-2" style="color: rgb(80, 100, 115); font-weight: 400; font-style: normal; font-size: 16px;">Mueve los controles, observa el recorrido y descubre cómo cambia la altura de la válvula.</p>
+    </header>
+    <main class="main-grid grid gap-5" style="grid-template-columns:minmax(320px,.88fr) minmax(0,1.12fr)">
+     <section data-template-id="controls-card" class="canva-card card" style="background: rgb(255, 255, 255);">
+      <h2 data-template-id="controls-title" class="canva-text font-bold mb-3" style="color: rgb(24, 48, 64); font-weight: 700; font-style: normal; font-size: 24px;">Enunciado y controles</h2>
+      <blockquote data-template-id="problem-statement" class="canva-text rounded-xl p-4 leading-relaxed" style="background: rgb(234, 243, 239); color: rgb(24, 48, 64); font-weight: 400; font-style: normal; font-size: 16px;">El radio exterior de una rueda de bicicleta es de 26 cm. La válvula de la rueda se encuentra a 24,5 cm del centro de la misma. Inicialmente la válvula se encuentra ubicada a 38 cm del piso, luego la rueda gira en sentido antihorario 390°, y se detiene. En ese momento, ¿a qué altura del piso se encuentra la válvula?</blockquote>
+      <p data-template-id="model-note" class="canva-text leading-relaxed mt-3 mb-6" style="color: rgb(80, 100, 115); font-weight: 400; font-style: normal; font-size: 16px;">R determina la altura del centro sobre el piso; r es la distancia del centro a la válvula y se conserva durante el giro. El centro permanece fijo, la rueda es tangente al piso y los ángulos positivos son antihorarios, expresados en grados.</p>
+      <div class="grid sm:grid-cols-2 gap-x-5">
+       <div><label data-template-id="turn-label" class="canva-text font-bold" for="turn-number" style="color: rgb(24, 48, 64); font-weight: 700; font-style: normal; font-size: 16px;">Giro de la rueda (°)</label>
+        <div class="field"><input id="turn-range" aria-label="Giro, deslizador" type="range" min="-1440" max="1440" step="1"><input id="turn-number" aria-label="Giro en grados" type="text" inputmode="decimal">
+        </div>
+       </div>
+       <div><label data-template-id="height-label" class="canva-text font-bold" for="height-number" style="color: rgb(24, 48, 64); font-weight: 700; font-style: normal; font-size: 16px;">Altura inicial h₀ (cm)</label>
+        <div class="field"><input id="height-range" aria-label="Altura inicial, deslizador" type="range" min="0" max="120" step=".1"><input id="height-number" aria-label="Altura inicial en centímetros" type="text" inputmode="decimal">
+        </div>
+       </div>
+       <div><label data-template-id="outer-label" class="canva-text font-bold" for="outer-number" style="color: rgb(24, 48, 64); font-weight: 700; font-style: normal; font-size: 16px;">Radio exterior R (cm)</label>
+        <div class="field"><input id="outer-range" aria-label="Radio exterior, deslizador" type="range" min="0" max="60" step=".1"><input id="outer-number" aria-label="Radio exterior en centímetros" type="text" inputmode="decimal">
+        </div>
+       </div>
+       <div><label data-template-id="inner-label" class="canva-text font-bold" for="inner-number" style="color: rgb(24, 48, 64); font-weight: 700; font-style: normal; font-size: 16px;">Radio interior r (cm)</label>
+        <div class="field"><input id="inner-range" aria-label="Radio interior, deslizador" type="range" min="0" max="60" step=".1"><input id="inner-number" aria-label="Radio interior en centímetros" type="text" inputmode="decimal">
+        </div>
+       </div>
+      </div><label data-template-id="solution-label" class="canva-text block font-bold mb-2" for="solution" style="color: rgb(24, 48, 64); font-weight: 700; font-style: normal; font-size: 16px;">Posición inicial de la válvula</label> <select id="solution" class="mb-4"><option data-template-id="solution-a" value="A" style="font-weight: 400; font-style: normal; font-size: 16px;">Solución A: válvula a la derecha del centro</option><option data-template-id="solution-b" value="B" style="font-weight: 400; font-style: normal; font-size: 16px;">Solución B: válvula a la izquierda del centro</option></select> <label class="flex items-center gap-3 mb-5 cursor-pointer"><input id="compare" type="checkbox" class="w-5 h-5 accent-blue-700"><span data-template-id="compare-label" class="canva-text font-semibold" style="color: rgb(24, 48, 64); font-weight: 600; font-style: normal; font-size: 16px;">Comparar ambas soluciones</span></label>
+      <div id="warnings" role="status" aria-live="polite"></div>
+      <div class="flex flex-wrap gap-2 mt-5">
+       <button data-template-id="start-button" id="start" type="button" class="canva-button btn primary" style="background: rgb(23, 106, 165); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Iniciar giro</button> <button data-template-id="pause-button" id="pause" type="button" class="canva-button btn" style="background: rgb(255, 255, 255); color: rgb(24, 48, 64); font-weight: 700; font-style: normal; font-size: 16px;">Pausar</button> <button data-template-id="resume-button" id="resume" type="button" class="canva-button btn" style="background: rgb(255, 255, 255); color: rgb(24, 48, 64); font-weight: 700; font-style: normal; font-size: 16px;">Continuar</button> <button data-template-id="restart-button" id="restart" type="button" class="canva-button btn" style="background: rgb(255, 255, 255); color: rgb(24, 48, 64); font-weight: 700; font-style: normal; font-size: 16px;">Reiniciar giro</button> <button data-template-id="initial-button" id="initial" type="button" class="canva-button btn" style="background: rgb(255, 255, 255); color: rgb(24, 48, 64); font-weight: 700; font-style: normal; font-size: 16px;">Mostrar posición inicial</button> <button data-template-id="final-button" id="final" type="button" class="canva-button btn" style="background: rgb(255, 255, 255); color: rgb(24, 48, 64); font-weight: 700; font-style: normal; font-size: 16px;">Mostrar posición final</button> <button data-template-id="reset-button" id="reset" type="button" class="canva-button btn" style="background: rgb(255, 255, 255); color: rgb(24, 48, 64); font-weight: 700; font-style: normal; font-size: 16px;">Restablecer valores iniciales</button>
+      </div>
+      <p id="motion-status" class="mt-4 text-sm font-semibold" aria-live="polite"></p>
+     </section>
+     <div class="grid gap-5 content-start">
+      <section data-template-id="wheel-card" class="canva-card card" style="background: rgb(255, 255, 255);">
+       <div class="flex flex-wrap justify-between items-baseline gap-2 mb-3">
+        <h2 data-template-id="wheel-title" class="canva-text font-bold" style="color: rgb(24, 48, 64); font-weight: 700; font-style: normal; font-size: 24px;">Rueda dinámica</h2><span id="turn-counter" class="text-sm font-semibold"></span>
+       </div>
+       <svg id="wheel" class="diagram" viewBox="0 0 620 350" role="img" aria-label="Rueda y posiciones de la válvula"></svg>
+       <p data-template-id="wheel-hint" class="canva-text mt-3" style="color: rgb(80, 100, 115); font-weight: 400; font-style: normal; font-size: 16px;">Arrastra la válvula para explorar otras posiciones iniciales. Los círculos huecos indican las posiciones iniciales y los puntos sólidos muestran las válvulas en el instante actual.</p>
+      </section>
+      <section data-template-id="chart-card" class="canva-card card" style="background: rgb(255, 255, 255);">
+       <h2 data-template-id="chart-title" class="canva-text font-bold mb-3" style="color: rgb(24, 48, 64); font-weight: 700; font-style: normal; font-size: 24px;">Gráfica trigonométrica</h2>
+       <svg id="chart" class="diagram" viewBox="0 0 620 330" role="img" aria-label="Gráfica de altura según ángulo girado"></svg>
+       <div class="flex flex-wrap gap-4 mt-3 text-sm font-semibold"><span style="color:#176aa5">● <span data-template-id="legend-a" class="canva-text" style="color: rgb(23, 106, 165); font-weight: 400; font-style: normal; font-size: 16px;">Solución A</span></span><span style="color:#b44d18">● <span data-template-id="legend-b" class="canva-text" style="color: rgb(180, 77, 24); font-weight: 400; font-style: normal; font-size: 16px;">Solución B</span></span>
+       </div>
+      </section>
+      <section data-template-id="results-card" class="canva-card card" style="background: rgb(255, 255, 255);">
+       <h2 data-template-id="results-title" class="canva-text font-bold mb-4" style="color: rgb(24, 48, 64); font-weight: 700; font-style: normal; font-size: 24px;">Resultados y explicación</h2>
+       <div id="results" class="numbers" aria-live="polite"></div>
+       <div id="final-results" class="mt-4"></div><button data-template-id="procedure-button" id="procedure-toggle" type="button" class="canva-button btn mt-5" aria-expanded="false" style="background: rgb(255, 255, 255); color: rgb(24, 48, 64); font-weight: 700; font-style: normal; font-size: 16px;">Mostrar procedimiento / ocultar procedimiento</button>
+       <div id="procedure" hidden="" class="mt-4 leading-relaxed"></div>
+       <div class="mt-7 border-t pt-5">
+        <button data-template-id="questions-button" id="questions-toggle" type="button" class="canva-button btn w-full text-left" aria-expanded="false" style="background: rgb(255, 255, 255); color: rgb(24, 48, 64); font-weight: 700; font-style: normal; font-size: 16px;">Preguntas para explorar · abrir / cerrar</button>
+        <div id="questions" hidden="" class="mt-3">
+         <div class="question">
+          <h3 data-template-id="q1" class="canva-text font-semibold" style="color: rgb(24, 48, 64); font-weight: 600; font-style: normal; font-size: 19px;">¿Por qué existen dos posiciones iniciales posibles?</h3><button type="button" class="reveal btn mt-2" aria-expanded="false">Mostrar respuesta</button>
+          <p hidden="">La misma altura determina dos coordenadas horizontales: una positiva y otra negativa. Son puntos simétricos respecto del eje vertical del centro.</p>
+         </div>
+         <div class="question">
+          <h3 data-template-id="q2" class="canva-text font-semibold" style="color: rgb(24, 48, 64); font-weight: 600; font-style: normal; font-size: 19px;">¿Qué cambia y qué permanece constante cuando la rueda gira?</h3><button type="button" class="reveal btn mt-2" aria-expanded="false">Mostrar respuesta</button>
+          <p hidden="">Cambian el ángulo y la altura de la válvula. Permanecen constantes el centro de la rueda, R y la distancia r entre centro y válvula.</p>
+         </div>
+         <div class="question">
+          <h3 data-template-id="q3" class="canva-text font-semibold" style="color: rgb(24, 48, 64); font-weight: 600; font-style: normal; font-size: 19px;">¿Qué relación existe entre el radio interior y la amplitud de la función?</h3><button type="button" class="reveal btn mt-2" aria-expanded="false">Mostrar respuesta</button>
+          <p hidden="">La amplitud es r: la altura de la válvula puede diferir como máximo r de la altura del centro.</p>
+         </div>
+         <div class="question">
+          <h3 data-template-id="q4" class="canva-text font-semibold" style="color: rgb(24, 48, 64); font-weight: 600; font-style: normal; font-size: 19px;">¿Qué relación existe entre el radio exterior y el eje medio de la función?</h3><button type="button" class="reveal btn mt-2" aria-expanded="false">Mostrar respuesta</button>
+          <p hidden="">Como la rueda es tangente al piso, su centro está a R centímetros de altura. Por eso el eje medio de la función es h = R.</p>
+         </div>
+         <div class="question">
+          <h3 data-template-id="q5" class="canva-text font-semibold" style="color: rgb(24, 48, 64); font-weight: 600; font-style: normal; font-size: 19px;">¿Por qué un giro de 390° produce la misma posición final que uno de 30°?</h3><button type="button" class="reveal btn mt-2" aria-expanded="false">Mostrar respuesta</button>
+          <p hidden="">Después de 360° la válvula vuelve a la misma posición. Los 30° restantes determinan la posición final, pero el recorrido total sí incluye la vuelta completa.</p>
+         </div>
+         <div class="question">
+          <h3 data-template-id="q6" class="canva-text font-semibold" style="color: rgb(24, 48, 64); font-weight: 600; font-style: normal; font-size: 19px;">¿Cómo cambia la gráfica cuando se modifica la posición inicial?</h3><button type="button" class="reveal btn mt-2" aria-expanded="false">Mostrar respuesta</button>
+          <p hidden="">La curva cambia su fase inicial: ambas comienzan a la misma altura, pero sus pendientes iniciales tienen signos opuestos.</p>
+         </div>
+         <div class="question">
+          <h3 data-template-id="q7" class="canva-text font-semibold" style="color: rgb(24, 48, 64); font-weight: 600; font-style: normal; font-size: 19px;">¿Qué sucede con la altura final cuando se selecciona la otra posición inicial?</h3><button type="button" class="reveal btn mt-2" aria-expanded="false">Mostrar respuesta</button>
+          <p hidden="">En general la otra posición produce una altura final diferente porque comienza con otro ángulo. Al activar la comparación puedes ver ambas alturas calculadas independientemente.</p>
+         </div>
+        </div>
+       </div>
+      </section>
+     </div>
+    </main>
+    <footer class="text-sm mt-6" style="color:#506473">
+     Explora los controles antes de abrir el procedimiento y las respuestas.
+    </footer>
+   </div>
+  </div>
+  <script>
+(() => {
+  const defaults={turn:390,height:38,outer:26,inner:24.5};
+  const state={...defaults,solution:"A",compare:false,current:0,playing:false,lastTime:0,alphaA:null,alphaB:null};
+  const $=id=>document.getElementById(id);
+  const fmt=n=>Number.isFinite(n)?new Intl.NumberFormat("es-AR",{maximumFractionDigits:2,minimumFractionDigits:2}).format(Math.abs(n)<0.0000001?0:n):"—";
+  const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const deg=Math.PI/180, normalized=n=>((n%360)+360)%360;
+  const height=(alpha,theta)=>state.outer+state.inner*Math.sin((alpha+theta)*deg);
+  function model(){
+    const {outer:R,inner:r,height:h0,turn}=state, problems=[];
+    if(!Number.isFinite(R)||!Number.isFinite(r)||!Number.isFinite(h0)||!Number.isFinite(turn))problems.push("Introduce números válidos en todos los campos.");
+    if(Number.isFinite(R)&&R<=0||Number.isFinite(r)&&r<=0)problems.push("Todos los radios deben ser positivos. Aumenta R y r.");
+    if(Number.isFinite(r)&&Number.isFinite(R)&&r>R)problems.push("Atención: el radio interior no puede superar al radio exterior en este modelo. Modifica los valores para recuperar una configuración geométricamente válida");
+    if(Number.isFinite(r)&&Number.isFinite(R)&&R-r<0)problems.push("El círculo interior puede alcanzar una posición inferior al piso. Aumenta R o reduce r para una rueda físicamente válida.");
+    const d=h0-R;
+    if(Number.isFinite(d)&&Number.isFinite(r)&&Math.abs(d)>r+1e-9)problems.push("La altura inicial no permite ubicar la válvula a esa distancia del centro. Ajusta h₀, R o r hasta que |h₀ − R| ≤ r.");
+    if(problems.length)return {problems};
+    const a=Math.asin(Math.max(-1,Math.min(1,d/r)))/deg;
+    const alphaA=Number.isFinite(state.alphaA)?state.alphaA:a,alphaB=Number.isFinite(state.alphaB)?state.alphaB:180-a;
+    return {problems,delta:d,alphaA,alphaB,finalA:height(alphaA,turn),finalB:height(alphaB,turn)};
+  }
+  function setControls(){
+    for(const [key,base] of Object.entries(defaults)){
+      const n=$(key+"-number"),range=$(key+"-range");
+      if(document.activeElement!==n)n.value=Number.isFinite(state[key])?String(state[key]).replace(".",","):"";
+      if(Number.isFinite(state[key])){
+        if(state[key]<+range.min)range.min=String(state[key]);
+        if(state[key]>+range.max)range.max=String(state[key]);
+        range.value=state[key];
+      }
+    }
+    $("solution").value=state.solution;$("compare").checked=state.compare;
+  }
+  function safeText(s){return esc(s)}
+  function wheel(m){
+    const svg=$("wheel");svg.classList.toggle("drag-ready",!m.problems.length);if(m.problems.length){svg.innerHTML='<text x="310" y="170" text-anchor="middle">Ajusta los parámetros para visualizar la rueda.</text>';return}
+    const R=state.outer,r=state.inner,scale=Math.min(4.4,132/R),cx=310,cy=171,floor=cy+R*scale;
+    const point=(a,t)=>({x:cx+r*scale*Math.cos((a+t)*deg),y:cy-r*scale*Math.sin((a+t)*deg)});
+    const active=state.compare?["A","B"]:[state.solution],color={A:"#176aa5",B:"#b44d18"};
+    let s=`<line x1="38" y1="${floor}" x2="582" y2="${floor}" stroke="#506473" stroke-width="3"/><text x="535" y="${floor+19}">piso</text>
+      <circle cx="${cx}" cy="${cy}" r="${R*scale}" fill="#fff" stroke="#294957" stroke-width="5"/>
+      <line x1="${cx}" y1="${cy}" x2="${cx+R*scale}" y2="${cy}" stroke="#789198" stroke-width="2" stroke-dasharray="5 4"/>
+      <text x="${Math.min(560,cx+R*scale/2)}" y="${cy-8}">R = ${fmt(R)} cm</text>
+      <circle cx="${cx}" cy="${cy}" r="5" fill="#294957"/><text x="${cx-17}" y="${cy+18}" font-weight="700">C</text>
+      <text x="18" y="24">Inicio: h₀ = ${fmt(state.height)} cm</text>`;
+    for(const name of active){
+      const a=name==="A"?m.alphaA:m.alphaB,p0=point(a,0),p=point(a,state.current),col=color[name];
+      s+=`<circle cx="${p0.x}" cy="${p0.y}" r="6" fill="white" stroke="${col}" stroke-width="2" stroke-dasharray="2 2"/>
+        <line x1="${cx}" y1="${cy}" x2="${p.x}" y2="${p.y}" stroke="${col}" stroke-width="3"/>
+        <line x1="${p.x}" y1="${p.y}" x2="${p.x}" y2="${floor}" stroke="${col}" stroke-width="1.8" stroke-dasharray="5 4"/>
+        <circle class="valve-hit" data-valve="${name}" cx="${p.x}" cy="${p.y}" r="8" fill="${col}" stroke="white" stroke-width="2"/>
+        <text x="${p.x>cx?p.x-12:p.x+12}" y="${Math.max(24,p.y-13)}" text-anchor="${p.x>cx?"end":"start"}" fill="${col}" font-weight="700">${name}: ${fmt(height(a,state.current))} cm</text>`;
+    }
+    const sign=state.current>=0?1:-1,arcR=28,start=0,end=sign*Math.min(Math.abs(state.current),60)*deg;
+    s+=`<path d="M ${cx+arcR} ${cy} A ${arcR} ${arcR} 0 0 ${sign<0?1:0} ${cx+arcR*Math.cos(end)} ${cy-arcR*Math.sin(end)}" fill="none" stroke="#347467" stroke-width="2"/>
+      <text x="18" y="310">r = ${fmt(r)} cm · ${state.current>0?"↺ antihorario":state.current<0?"↻ horario":"sin giro"}</text>
+      <text x="18" y="330">Recorrido: ${fmt(state.current)}° · vueltas completas: ${Math.floor(Math.abs(state.current)/360)}</text>`;
+    svg.innerHTML=s;
+  }
+  function chart(m){
+    const svg=$("chart");if(m.problems.length){svg.innerHTML='<text x="310" y="165" text-anchor="middle">La gráfica aparecerá al corregir los parámetros.</text>';return}
+    const x0=64,x1=595,y0=35,y1=273,R=state.outer,r=state.inner;
+    const lo=Math.min(0,state.turn),hi=Math.max(0,state.turn),padding=Math.max(45,(hi-lo)*.055),xmin=lo-padding,xmax=hi+padding;
+    const xx=v=>x0+(v-xmin)/(xmax-xmin)*(x1-x0), yy=v=>y1-(v-(R-r-2))/(2*r+4)*(y1-y0);
+    let s=`<line x1="${x0}" y1="${y1}" x2="${x1}" y2="${y1}" stroke="#506473" stroke-width="2"/><line x1="${x0}" y1="${y0}" x2="${x0}" y2="${y1}" stroke="#506473" stroke-width="2"/>
+      <line x1="${x0}" y1="${yy(R)}" x2="${x1}" y2="${yy(R)}" stroke="#668b7f" stroke-dasharray="6 5"/>
+      <text x="7" y="${yy(R-r)+4}" class="small">mín ${fmt(R-r)}</text><text x="7" y="${yy(R)+4}" class="small">R ${fmt(R)}</text>
+      <text x="7" y="${yy(R+r)+4}" class="small">máx ${fmt(R+r)}</text><text x="10" y="23">h (cm)</text>
+      <text x="487" y="307">θ (grados)</text>`;
+    const ticks=[lo,0,hi].filter((v,i,a)=>a.indexOf(v)===i);
+    for(const t of ticks)s+=`<line x1="${xx(t)}" y1="${y1}" x2="${xx(t)}" y2="${y1+5}" stroke="#506473"/><text x="${xx(t)}" y="${y1+19}" text-anchor="middle" class="small">${fmt(t)}°</text>`;
+    for(const name of state.compare?["A","B"]:[state.solution]){
+      const a=name==="A"?m.alphaA:m.alphaB,col=name==="A"?"#176aa5":"#b44d18";
+      let path="";
+      for(let i=0;i<=Math.max(240,Math.min(1100,Math.abs(state.turn)*.8));i++){
+        const n=Math.max(240,Math.min(1100,Math.abs(state.turn)*.8)),t=lo+(hi-lo)*i/n;
+        path+=(i?" L ":"M ")+xx(t).toFixed(2)+" "+yy(height(a,t)).toFixed(2);
+      }
+      s+=`<path d="${path}" fill="none" stroke="${col}" stroke-width="2.5" opacity=".85"/>`;
+      const marks=[{t:0,v:height(a,0),rad:4},{t:state.turn,v:height(a,state.turn),rad:5},{t:state.current,v:height(a,state.current),rad:7}];
+      marks.forEach((p,i)=>{s+=`<line x1="${xx(p.t)}" y1="${yy(p.v)}" x2="${xx(p.t)}" y2="${y1}" stroke="${col}" opacity=".35" stroke-dasharray="3 4"/><circle cx="${xx(p.t)}" cy="${yy(p.v)}" r="${p.rad}" fill="${i===2?col:"white"}" stroke="${col}" stroke-width="2"/>`});
+    }
+    svg.innerHTML=s;
+  }
+  function results(m){
+    if(m.problems.length){$("results").innerHTML="";$("final-results").innerHTML='<p class="warn">No se calculan alturas ni ángulos mientras la configuración sea inválida. Conservamos tus valores para que puedas corregirlos.</p>';$("procedure").innerHTML="";return}
+    const {outer:R,inner:r,height:h0,turn}=state,a=state.solution==="A"?m.alphaA:m.alphaB;
+    const metric=(label,value)=>`<div class="metric"><small>${label}</small><strong>${value}</strong></div>`;
+    $("results").innerHTML=metric("Altura inicial h₀",fmt(h0)+" cm")+metric("Radio exterior R / altura del centro",fmt(R)+" cm")+metric("Radio interior r / amplitud",fmt(r)+" cm")+metric("Ángulo inicial α₀ · solución "+state.solution,fmt(a)+"°")+
+      (state.compare?metric("Ángulo inicial A",fmt(m.alphaA)+"°")+metric("Ángulo inicial B",fmt(m.alphaB)+"°"):"")+
+      metric("Giro total firmado",fmt(turn)+"°")+metric("Equivalente módulo 360°",fmt(normalized(turn))+"°")+
+      metric("Ángulo acumulado actual",fmt(state.current)+"°")+metric("Equivalente actual",fmt(normalized(state.current))+"°")+
+      metric("Eje medio / mínimo / máximo",`${fmt(R)} / ${fmt(R-r)} / ${fmt(R+r)} cm`)+metric("Período",fmt(360)+"°")+
+      metric("Función · solución "+state.solution,`h(θ) = ${fmt(R)} cm + ${fmt(r)} cm · sen(${fmt(a)}° + θ)`);
+    $("final-results").innerHTML=state.compare
+      ?`<div class="answer"><strong>Alturas finales calculadas</strong><br><span style="color:#176aa5">A: ${fmt(m.finalA)} cm</span> · <span style="color:#b44d18">B: ${fmt(m.finalB)} cm</span></div>`
+      :`<div class="answer"><strong>Altura final · solución ${state.solution}: ${fmt(state.solution==="A"?m.finalA:m.finalB)} cm</strong></div>`;
+    const lines=(name,alpha,final)=>`<p><strong>Solución ${name}.</strong> α₀ = ${name==="A"?"arcsen":"180° − arcsen"}(${fmt(m.delta)} cm / ${fmt(r)} cm) = ${fmt(alpha)}°.<br>h(${fmt(turn)}°) = ${fmt(R)} cm + ${fmt(r)} cm · sen(${fmt(alpha)}° + ${fmt(turn)}°) = <strong>${fmt(final)} cm</strong>.</p>`;
+    $("procedure").innerHTML=`<ol class="list-decimal pl-5 space-y-3"><li>Al ser tangente al piso, el centro está a R = ${fmt(R)} cm de altura.</li><li>Δy = h₀ − R = ${fmt(h0)} cm − ${fmt(R)} cm = ${fmt(m.delta)} cm.</li><li>Δy/r = ${fmt(m.delta/r)}, que pertenece a [−1, 1]; ambas posiciones son posibles.</li><li>${lines(state.solution,a,state.solution==="A"?m.finalA:m.finalB)}${state.compare?lines(state.solution==="A"?"B":"A",state.solution==="A"?m.alphaB:m.alphaA,state.solution==="A"?m.finalB:m.finalA):""}</li><li>El giro total es ${fmt(turn)}°; solo su posición final equivale a ${fmt(normalized(turn))}° módulo 360°. Se completaron ${Math.floor(Math.abs(turn)/360)} vuelta(s) enteras durante el recorrido.</li><li>Conclusión: ${state.compare?`A termina a ${fmt(m.finalA)} cm y B a ${fmt(m.finalB)} cm.`:`la válvula de ${state.solution} termina a ${fmt(state.solution==="A"?m.finalA:m.finalB)} cm.`}</li></ol>`;
+  }
+  function render(){
+    const m=model();setControls();
+    $("warnings").innerHTML=m.problems.map(p=>`<div class="warn">${safeText(p)}</div>`).join("");
+    $("turn-counter").textContent=`${fmt(state.current)}° acumulados · ${fmt(normalized(state.current))}° módulo 360°`;
+    $("motion-status").textContent=m.problems.length?"Animación detenida: corrige los parámetros.":state.playing?"Girando "+(state.turn>0?"en sentido antihorario":state.turn<0?"en sentido horario":"sin giro")+".":`Posición actual: ${fmt(state.current)}° · ${state.turn>0?"antihorario":state.turn<0?"horario":"sin giro"}.`;
+    wheel(m);chart(m);results(m);
+  }
+  function stop(){state.playing=false;state.lastTime=0}
+  function animate(time){
+    if(!state.playing)return;
+    if(!state.lastTime)state.lastTime=time;
+    const dt=Math.min(100,time-state.lastTime);state.lastTime=time;
+    const direction=Math.sign(state.turn),speed=Math.max(90,Math.abs(state.turn)/5);
+    state.current+=direction*speed*dt/1000;
+    if(direction*(state.turn-state.current)<=0){state.current=state.turn;stop()}
+    render();
+    if(state.playing)requestAnimationFrame(animate);
+  }
+  let dragValve=null;
+  function pointerAngle(event){
+    const svg=$("wheel"),rect=svg.getBoundingClientRect();
+    const x=(event.clientX-rect.left)*620/rect.width,y=(event.clientY-rect.top)*350/rect.height;
+    return Math.atan2(-(y-171),x-310)/deg;
+  }
+  function moveValve(event){
+    if(!dragValve)return;
+    const m=model();if(m.problems.length)return;
+    const alpha=pointerAngle(event),key=dragValve==="A"?"alphaA":"alphaB";
+    state[key]=alpha;state.height=state.outer+state.inner*Math.sin(alpha*deg);state.current=0;
+    render();
+  }
+  $("wheel").addEventListener("pointerdown",event=>{
+    const target=event.target.closest("[data-valve]");if(!target)return;
+    const name=target.dataset.valve;if(!state.compare&&name!==state.solution)return;
+    dragValve=name;stop();$("wheel").classList.add("dragging");$("wheel").setPointerCapture(event.pointerId);moveValve(event);
+  });
+  $("wheel").addEventListener("pointermove",moveValve);
+  $("wheel").addEventListener("pointerup",event=>{dragValve=null;$("wheel").classList.remove("dragging");if($("wheel").hasPointerCapture(event.pointerId))$("wheel").releasePointerCapture(event.pointerId)});
+  $("wheel").addEventListener("pointercancel",()=>{dragValve=null;$("wheel").classList.remove("dragging")});
+  for(const key of Object.keys(defaults)){
+    $(key+"-range").addEventListener("input",e=>{stop();state[key]=Number(e.target.value);if(key==="turn")state.current=0;if(key==="height"){state.alphaA=null;state.alphaB=null}render()});
+    $(key+"-number").addEventListener("input",e=>{
+      const raw=e.target.value.trim().replace(",",".");
+      if(raw===""||raw==="-"||raw==="."||raw==="-."||!Number.isFinite(Number(raw))){stop();state[key]=NaN;render();return}
+      stop();state[key]=Number(raw);if(key==="turn")state.current=0;if(key==="height"){state.alphaA=null;state.alphaB=null}render()
+    });
+  }
+  $("solution").addEventListener("change",e=>{state.solution=e.target.value;render()});
+  $("compare").addEventListener("change",e=>{state.compare=e.target.checked;render()});
+  $("start").addEventListener("click",()=>{if(model().problems.length){render();return}stop();state.current=0;if(state.turn!==0){state.playing=true;requestAnimationFrame(animate)}render()});
+  $("pause").addEventListener("click",()=>{stop();render()});
+  $("resume").addEventListener("click",()=>{if(model().problems.length){render();return}if(!state.playing&&state.current!==state.turn&&state.turn!==0){state.playing=true;requestAnimationFrame(animate)}render()});
+  $("restart").addEventListener("click",()=>{stop();state.current=0;render()});
+  $("initial").addEventListener("click",()=>{stop();state.current=0;render()});
+  $("final").addEventListener("click",()=>{stop();if(!model().problems.length)state.current=state.turn;render()});
+  $("reset").addEventListener("click",()=>{stop();Object.assign(state,defaults,{solution:"A",compare:false,current:0,alphaA:null,alphaB:null});document.activeElement.blur();render()});
+  for(const [button,panel] of [["procedure-toggle","procedure"],["questions-toggle","questions"]]){
+    $(button).addEventListener("click",()=>{const shown=$(panel).hidden;$(panel).hidden=!shown;$(button).setAttribute("aria-expanded",String(shown))});
+  }
+  document.querySelectorAll(".reveal").forEach(button=>button.addEventListener("click",()=>{
+    const answer=button.nextElementSibling,shown=answer.hidden;answer.hidden=!shown;button.setAttribute("aria-expanded",String(shown));button.textContent=shown?"Ocultar respuesta":"Mostrar respuesta";
+  }));
+  render();
+})();
+</script>
+ 
+</body></html>
